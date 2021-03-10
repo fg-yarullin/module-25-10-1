@@ -1,0 +1,48 @@
+body {
+    background-color:rgba(250, 235, 215, 0.479);
+}
+
+.navbar {
+    background-color: rgba(153, 148, 140, 0.234);
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.family {
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.card {
+    width: 320px;
+    margin: 15px;
+}
+
+.card-text {
+    margin-left: 15px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+@media screen and (min-width: 300px) and(max-width: 800px) {
+    .family {
+        flex-direction: column;
+    }
+
+    .card + .card {
+        margin-top: 20px; 
+    }
+}
+
+
+
